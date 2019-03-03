@@ -43,45 +43,12 @@
                         <a class="dropdown-item" th:href="@{/subscribeJson}" target="_blank">随机 JSON 订阅</a>
                     </div>
                 </li>
-                <li class="nav-item dropdown" th:unless="${#lists.isEmpty(ssrList)}">
-                    <a class="nav-link dropdown-toggle" href="#" id="dropdown02" data-toggle="dropdown"
-                       aria-haspopup="true" aria-expanded="false">爬取列表</a>
-                    <div class="dropdown-menu" aria-labelledby="dropdown02">
-                        <a class="dropdown-item" th:href="${ssr.targetURL}" target="_blank"
-                           th:each="ssr,iterStat : ${ssrList}">
-                            <span class="badge badge-primary">
-                                <th:block th:if="${ssr.valid}">
-                                    状态：<i class="fa fa-check-circle" aria-hidden="true">&nbsp; </i>
-                                </th:block>
-                                <th:block th:unless="${ssr.valid}">
-                                    状态：<i class="fa fa-times-circle" aria-hidden="true">&nbsp; </i>
-                                </th:block>
-                            </span>
-                            <span class="badge badge-info">
-                                账号数量：<th:block th:text="${#lists.size(ssr.shadowSocksSet)}"></th:block>
-                            </span>
-                            <span class="badge badge-warning">
-                                <th:block th:text="${ssr.targetURL}"></th:block>
-                            </span>
 
-                            <!--<span class="badge badge-pill badge-info">账号数量：<th:block th:text="${#lists.size(ssr.shadowSocksSet)}"></th:block></span>-->
-                        </a>
-                    </div>
-                </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="https://github.com/zc-zh-001/ShadowSocks-Share/blob/master/README.md"
-                       target="_blank">关于</a>
+                    <a class="nav-link" href="https://www.youtube.com/c/tonycn"  target="_blank">演示视频</a>
                 </li>
             </ul>
-            <!--<form class="form-inline my-2 my-md-0">
-                <input class="form-control" type="text" placeholder="Search" aria-label="Search"/>
-            </form>-->
-            <!--<a class="github-button" href="https://github.com/zc-zh-001/ShadowSocks-Share/subscription"
-               data-icon="octicon-eye" aria-label="Watch zc-zh-001/ShadowSocks-Share on GitHub">Watch</a>&nbsp;&nbsp;
-            <a class="github-button" href="https://github.com/zc-zh-001/ShadowSocks-Share" data-icon="octicon-star"
-               aria-label="Star zc-zh-001/ShadowSocks-Share on GitHub">Star</a>&nbsp;&nbsp;
-            <a class="github-button" href="https://github.com/zc-zh-001/ShadowSocks-Share/fork"
-               data-icon="octicon-repo-forked" aria-label="Fork zc-zh-001/ShadowSocks-Share on GitHub">Fork</a>-->
+
         </div>
     </div>
 </nav>
@@ -89,16 +56,16 @@
 <main role="main">
     <section class="jumbotron text-center">
         <div class="container">
-            <h1 class="jumbotron-heading">SSR 免费账号共享</h1>
+            <h1 class="jumbotron-heading">TonySSR 免费账号共享</h1>
             <p class="lead text-muted">
-                本项目不具备代理及账号管理能力。只负责汇集目标站点信息，便于大家查看、订阅。<br/>
-                账号来之不易，请支持源站点。
-                <a href="https://github.com/zc-zh-001/ShadowSocks-Share" target="_blank">
-                    查看项目
+                本站收集的各大免费机场节点，汇集在这里，便于大家查看和订阅机场节点。<br/>
+                <a href="https://www.youtube.com/c/tonycn" target="_blank">账号来之不易，请且用且珍惜。请订阅Tony的YouTube频道。 </a>
+                <a href="https://www.youtube.com/c/tonycn" target="_blank">
+                    查看SS、SSR操作演示
                 </a>
             </p>
             <!--<p>
-                <a href="#" class="btn btn-primary my-2">查看项目 &raquo;</a>
+                <a href="#" class="btn btn-primary my-2">查看 &raquo;</a>
                 <a href="#" class="btn btn-secondary my-2">使用帮助 &raquo;</a>
             </p>-->
         </div>
@@ -194,7 +161,11 @@
         <p class="float-right">
             <a href="#"><i class="fa fa-arrow-up" aria-hidden="true"></i>&nbsp;返回顶部</a>
         </p>
-        <p class="text-muted">&copy; 2017 xxx, Inc. 免费、开源的 SSR 账号爬虫</p>
+        <p class="text-muted">&copy; 2019 
+        <a href="https://www.youtube.com/c/tonycn" target="_blank">账号来之不易，请且用且珍惜。请订阅Tony的YouTube频道。 </a>
+                <a href="https://www.youtube.com/c/tonycn" target="_blank">
+                    查看SS、SSR操作演示
+                </a></p>
     </div>
 </footer>
 
