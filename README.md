@@ -1,6 +1,6 @@
 # 欢迎访问本项目!
 
-示例站点：https://shadowsocks-share.herokuapp.com   
+示例站点：https://tonyssr.herokuapp.com
 
 本项目不具备代理及账号管理能力。只负责汇集目标站点信息，便于大家查看、订阅。账号来之不易，请支持源站点。
 
@@ -15,7 +15,7 @@
 
 ### Windows
 
-1. [下载](https://github.com/shadowsocksr-backup/shadowsocksr-csharp/releases)客户端，安装、启动
+1. [下载]客户端，安装、启动
 1. 鼠标右键客户端任务栏图标
 1. 服务器订阅 -> SSR 服务器订阅设置
 1. 添加订阅地址 -> 确定
@@ -23,7 +23,7 @@
 
 ### Android
 
-1. [下载](https://github.com/shadowsocksrr/shadowsocksr-android/releases)客户端，安装、启动
+1. [下载]客户端，安装、启动
 1. 添加订阅地址
 1. 确定并升级
 
@@ -104,8 +104,3 @@ free-ss 代理 | PROXY_FREE-SS_SOCKS | proxy.free-ss.socks | boolean | false | �
 > - Heroku 免费资源，内存太少，限制太多，造成部分网站账号抓取失败，推荐本地运行项目。
 > - 为避免爬虫太多对源站点产生影响及账号安全。**本站提供的服务能够满足需求时，请避免自行部署项目。**
 
-
-## TO DO
-
-1. 计划支持下列站点：
-    1. https://github.com/max2max/freess/wiki/%E5%85%8D%E8%B4%B9ss%E8%B4%A6%E5%8F%B7
