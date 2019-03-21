@@ -10,7 +10,8 @@
 
   gtag('config', 'UA-135478432-1');
 </script>
-<script src=’//recaptcha.net/recaptcha/api.js’></script>
+<!--  <span style="font-size:14px;"><script src='https://www.google.com/recaptcha/api.js'></script></span>-->
+<script src=’https://recaptcha.net/recaptcha/api.js’></script>
     <title th:text="#{app.title}"></title>
 
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
@@ -27,7 +28,12 @@
     <link th:href="@{/css/style.css}" rel="stylesheet"/>
 </head>
 <body>
-<div class=”g-recaptcha” data-sitekey=”6LefK5kUAAAAADX5PRNZm3jDqBQY4Ls461Y_E7Jd”></div>
+<!--<div class=”g-recaptcha” data-sitekey=”6LefK5kUAAAAADX5PRNZm3jDqBQY4Ls461Y_E7Jd”></div>-->
+<form action="index.html" method="post">
+<div class="g-recaptcha" data-sitekey="6LefK5kUAAAAADX5PRNZm3jDqBQY4Ls461Y_E7Jd"></div>
+<p><button class="btn btn-primary" type="submit">Login</button>
+</form>
+
 <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
     <div class="container">
         <a class="navbar-brand" href="#">
