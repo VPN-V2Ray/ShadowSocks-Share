@@ -1,5 +1,6 @@
-// Fake register for referrer to get warp plus bandwidth
-const referrer = "YOUR REFERRER ID";
+// Fake register for referrer to get warp plus bandwidth 
+// const referrer = "YOUR REFERRER ID";
+const referrer = "500f4974-17ec-48e3-8eb8-a0418368990b";
 const timesToLoop = 10;
 const retryTimes = 5;
 
